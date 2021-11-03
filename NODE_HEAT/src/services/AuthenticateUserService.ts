@@ -76,7 +76,7 @@ class AuthenticateUserService {
         expiresIn: "1d"
       }
     );
-
+    //console.log(token, user);
     return { token, user };
   }
 }
